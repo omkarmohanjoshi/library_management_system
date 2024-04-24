@@ -1,0 +1,225 @@
+2024-04-24 03:32:25,949 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 03:32:35,034 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:32:44,060 - user_management - INFO - User added: nova, 12
+2024-04-24 03:32:50,463 - storage - INFO - Data saved successfully to library_data.json
+2024-04-24 03:32:50,463 - __main__ - INFO - Data saved successfully.
+2024-04-24 03:33:30,543 - user_management - INFO - User added: nova, 12
+2024-04-24 03:33:30,543 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:33:30,543 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 03:34:40,273 - user_management - INFO - User added: nova, 12
+2024-04-24 03:34:40,273 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:34:40,273 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 03:42:03,465 - user_management - INFO - User added: nova, 12
+2024-04-24 03:42:03,465 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:42:03,465 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 03:42:10,145 - checkout_management - ERROR - Error checking out book: 'str' object has no attribute 'user_id'
+2024-04-24 03:42:12,485 - checkout_management - ERROR - Error listing checkouts: 'str' object has no attribute 'user_id'
+2024-04-24 03:42:12,485 - storage - INFO - Data saved successfully to library_data.json
+2024-04-24 03:42:12,485 - __main__ - INFO - Data saved successfully.
+2024-04-24 03:43:45,171 - user_management - INFO - User added: nova, 12
+2024-04-24 03:43:45,171 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:43:45,171 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 03:44:24,947 - user_management - INFO - User added: nova, 12
+2024-04-24 03:44:24,947 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:44:24,947 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 03:44:39,546 - checkout_management - ERROR - Error checking out book: 'str' object has no attribute 'user_id'
+2024-04-24 03:45:35,414 - user_management - INFO - User added: nova, 12
+2024-04-24 03:45:35,415 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:45:35,415 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 03:45:38,725 - checkout_management - INFO - Book checked out: User id: 12, Isbn: 123
+2024-04-24 03:45:58,733 - storage - INFO - Data saved successfully to library_data.json
+2024-04-24 03:45:58,734 - __main__ - INFO - Data saved successfully.
+2024-04-24 03:46:03,607 - user_management - INFO - User added: nova, 12
+2024-04-24 03:46:03,607 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:46:11,525 - user_management - INFO - User added: nova, 12
+2024-04-24 03:46:11,525 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:46:18,926 - cli_utils - ERROR - Error getting checkout details: 'str' object has no attribute 'search_users'
+2024-04-24 03:47:41,012 - user_management - INFO - User added: nova, 12
+2024-04-24 03:47:41,012 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:47:41,012 - checkout_management - INFO - Book checked out: User id: 12, Isbn: 123
+2024-04-24 03:47:41,012 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 03:49:09,025 - user_management - INFO - User added: nova, 12
+2024-04-24 03:49:09,025 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:49:09,025 - checkout_management - INFO - Book checked out: User id: 12, Isbn: 123
+2024-04-24 03:49:09,025 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 03:51:28,991 - user_management - INFO - User added: nova, 12
+2024-04-24 03:51:28,991 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 03:51:28,991 - checkout_management - INFO - Book checked out: User id: 12, Isbn: 123
+2024-04-24 03:51:28,991 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:19:01,054 - user_management - INFO - User added: nova, 12
+2024-04-24 05:19:01,054 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 05:19:01,054 - checkout_management - ERROR - Error checking out book: 'Book' object has no attribute 'available'
+2024-04-24 05:19:01,054 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:19:18,183 - __main__ - ERROR - Error in main loop: BookManager.add_item() missing 1 required positional argument: 'isbn'
+2024-04-24 05:19:35,663 - __main__ - ERROR - Error in main loop: UserManager.add_item() missing 1 required positional argument: 'user_id'
+2024-04-24 05:19:58,953 - __main__ - ERROR - Error in main loop: UserManager.list_items() missing 1 required positional argument: 'self'
+2024-04-24 05:20:10,112 - __main__ - ERROR - Error in main loop: BookManager.list_items() missing 1 required positional argument: 'self'
+2024-04-24 05:21:41,127 - user_management - INFO - User added: nova, 12
+2024-04-24 05:21:41,127 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 05:21:41,127 - checkout_management - ERROR - Error checking out book: 'Book' object has no attribute 'available'
+2024-04-24 05:21:41,127 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:21:47,032 - __main__ - ERROR - Error in main loop: BookManager.add_item() missing 1 required positional argument: 'isbn'
+2024-04-24 05:23:33,103 - __main__ - ERROR - Error saving data: BookManager.list_items() missing 1 required positional argument: 'self'
+2024-04-24 05:23:44,614 - user_management - INFO - User added: nova, 12
+2024-04-24 05:23:44,614 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 05:23:44,614 - checkout_management - ERROR - Error checking out book: 'Book' object has no attribute 'available'
+2024-04-24 05:23:44,614 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:23:57,827 - book_management - INFO - Book added: Timmd, dedeew, 12323123
+2024-04-24 05:25:29,273 - storage - INFO - Data saved successfully to library_data.json
+2024-04-24 05:25:29,273 - __main__ - INFO - Data saved successfully.
+2024-04-24 05:27:55,633 - user_management - INFO - User added: nova, 12
+2024-04-24 05:27:55,633 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 05:27:55,633 - book_management - INFO - Book added: Timmd, dedeew, 12323123
+2024-04-24 05:27:55,633 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:28:46,827 - user_management - INFO - User added: nova, 12
+2024-04-24 05:28:46,827 - book_management - INFO - Book added: abc, sss, 123
+2024-04-24 05:28:46,827 - book_management - INFO - Book added: Timmd, dedeew, 12323123
+2024-04-24 05:28:46,827 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:28:58,933 - storage - INFO - Data saved successfully to library_data.json
+2024-04-24 05:28:58,933 - __main__ - INFO - Data saved successfully.
+2024-04-24 05:36:40,033 - book_management - INFO - Book added: Test Title, Test Author, 1234567890
+2024-04-24 05:36:40,034 - book_management - INFO - Book added: Test Title, Test Author, 1234567890
+2024-04-24 05:36:40,035 - book_management - INFO - Book deleted: 1234567890
+2024-04-24 05:36:40,035 - book_management - INFO - Book added: Test Title, Test Author, 1234567890
+2024-04-24 05:36:40,035 - book_management - INFO - Book added: Test Title, Test Author, 1234567890
+2024-04-24 05:36:40,035 - book_management - INFO - Book added: Test Title, Test Author, 1234567890
+2024-04-24 05:36:40,035 - book_management - INFO - Book updated: 1234567890
+2024-04-24 05:40:31,810 - book_management - INFO - Book added: Test Title, Test Author, 1234567890
+2024-04-24 05:40:31,810 - book_management - INFO - Book added: Test Title, Test Author, 1234567890
+2024-04-24 05:40:31,810 - book_management - INFO - Book deleted: 1234567890
+2024-04-24 05:40:31,813 - book_management - INFO - Book added: Test Title, Test Author, 1234567890
+2024-04-24 05:40:31,813 - book_management - INFO - Book added: Test Title, Test Author, 1234567890
+2024-04-24 05:40:31,813 - book_management - INFO - Book added: Test Title, Test Author, 1234567890
+2024-04-24 05:40:31,813 - book_management - INFO - Book updated: 1234567890
+2024-04-24 05:40:31,813 - checkout_management - ERROR - Error checking out book: 'Book' object has no attribute 'available'
+2024-04-24 05:40:31,813 - checkout_management - ERROR - Error checking out book: 'Book' object has no attribute 'available'
+2024-04-24 05:40:31,813 - checkout_management - ERROR - Error checking out book: 'Book' object has no attribute 'available'
+2024-04-24 05:40:31,813 - checkout_management - ERROR - Error checking out book: 'Book' object has no attribute 'available'
+2024-04-24 05:40:31,813 - user_management - INFO - User added: Test User, test_user_id
+2024-04-24 05:40:31,816 - user_management - INFO - User added: Test User, test_user_id
+2024-04-24 05:40:31,816 - user_management - INFO - User deleted: test_user_id
+2024-04-24 05:40:31,816 - user_management - INFO - User added: Test User, test_user_id
+2024-04-24 05:40:31,816 - user_management - INFO - User added: Test User, test_user_id
+2024-04-24 05:40:31,816 - user_management - INFO - User added: Test User, test_user_id
+2024-04-24 05:40:31,816 - user_management - INFO - User updated: test_user_id
+2024-04-24 05:46:01,107 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:46:01,107 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:46:01,107 - book_management - INFO - Book deleted: ISBN1
+2024-04-24 05:46:01,107 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:46:01,107 - book_management - INFO - Book added: Book2, Author2, ISBN2
+2024-04-24 05:46:01,107 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:46:01,107 - book_management - INFO - Book added: Book2, Author2, ISBN2
+2024-04-24 05:46:01,107 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:46:01,107 - book_management - INFO - Book updated: ISBN1
+2024-04-24 05:46:01,107 - checkout_management - ERROR - Error checking out book: 'Book' object has no attribute 'available'
+2024-04-24 05:46:01,107 - checkout_management - ERROR - Error checking out book: 'Book' object has no attribute 'available'
+2024-04-24 05:46:01,107 - checkout_management - ERROR - Error checking out book: 'Book' object has no attribute 'available'
+2024-04-24 05:46:01,107 - checkout_management - ERROR - Error checking out book: 'Book' object has no attribute 'available'
+2024-04-24 05:46:01,107 - user_management - INFO - User added: John, 1
+2024-04-24 05:46:01,107 - user_management - INFO - User added: John, 1
+2024-04-24 05:46:01,107 - user_management - INFO - User deleted: 1
+2024-04-24 05:46:01,107 - user_management - INFO - User added: John, 1
+2024-04-24 05:46:01,112 - user_management - INFO - User added: Jane, 2
+2024-04-24 05:46:01,112 - user_management - INFO - User added: John, 1
+2024-04-24 05:46:01,112 - user_management - INFO - User added: Jane, 2
+2024-04-24 05:46:01,112 - user_management - INFO - User added: John, 1
+2024-04-24 05:46:01,112 - user_management - INFO - User updated: 1
+2024-04-24 05:48:21,683 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:48:30,282 - book_management - INFO - Book added: asddas, asddasa, 1234
+2024-04-24 05:48:35,925 - storage - INFO - Data saved successfully to library_data.json
+2024-04-24 05:48:35,925 - __main__ - INFO - Data saved successfully.
+2024-04-24 05:48:45,748 - book_management - INFO - Book added: asddas, asddasa, 1234
+2024-04-24 05:48:45,748 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:49:24,043 - user_management - INFO - User added: dqwdwdqd, 21212421421
+2024-04-24 05:49:26,880 - storage - INFO - Data saved successfully to library_data.json
+2024-04-24 05:49:26,880 - __main__ - INFO - Data saved successfully.
+2024-04-24 05:49:30,902 - user_management - INFO - User added: dqwdwdqd, 21212421421
+2024-04-24 05:49:30,902 - book_management - INFO - Book added: asddas, asddasa, 1234
+2024-04-24 05:49:30,902 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:49:40,193 - cli_utils - ERROR - Error getting checkout details: 'UserManager' object has no attribute 'search_users'
+2024-04-24 05:49:40,193 - __main__ - ERROR - Error in main loop: cannot unpack non-iterable NoneType object
+2024-04-24 05:52:49,152 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:52:49,152 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:52:49,152 - book_management - INFO - Book deleted: ISBN1
+2024-04-24 05:52:49,152 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:52:49,152 - book_management - INFO - Book added: Book2, Author2, ISBN2
+2024-04-24 05:52:49,152 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:52:49,152 - book_management - INFO - Book added: Book2, Author2, ISBN2
+2024-04-24 05:52:49,152 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:52:49,152 - book_management - INFO - Book updated: ISBN1
+2024-04-24 05:52:49,152 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:52:49,152 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:52:49,152 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:52:49,152 - checkout_management - INFO - Book returned: User id: 1, Isbn: ISBN1
+2024-04-24 05:52:49,152 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:52:49,152 - user_management - INFO - User added: John, 1
+2024-04-24 05:52:49,152 - user_management - INFO - User added: John, 1
+2024-04-24 05:52:49,152 - user_management - INFO - User deleted: 1
+2024-04-24 05:52:49,152 - user_management - INFO - User added: John, 1
+2024-04-24 05:52:49,152 - user_management - INFO - User added: Jane, 2
+2024-04-24 05:52:49,152 - user_management - INFO - User added: John, 1
+2024-04-24 05:52:49,152 - user_management - INFO - User added: Jane, 2
+2024-04-24 05:52:49,152 - user_management - INFO - User added: John, 1
+2024-04-24 05:52:49,152 - user_management - INFO - User updated: 1
+2024-04-24 05:52:58,957 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:52:58,957 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:52:58,957 - book_management - INFO - Book deleted: ISBN1
+2024-04-24 05:52:58,957 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:52:58,957 - book_management - INFO - Book added: Book2, Author2, ISBN2
+2024-04-24 05:52:58,957 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:52:58,957 - book_management - INFO - Book added: Book2, Author2, ISBN2
+2024-04-24 05:52:58,957 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:52:58,957 - book_management - INFO - Book updated: ISBN1
+2024-04-24 05:52:58,957 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:52:58,957 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:52:58,957 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:52:58,957 - checkout_management - INFO - Book returned: User id: 1, Isbn: ISBN1
+2024-04-24 05:52:58,957 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:52:58,963 - user_management - INFO - User added: John, 1
+2024-04-24 05:52:58,963 - user_management - INFO - User added: John, 1
+2024-04-24 05:52:58,963 - user_management - INFO - User deleted: 1
+2024-04-24 05:52:58,963 - user_management - INFO - User added: John, 1
+2024-04-24 05:52:58,963 - user_management - INFO - User added: Jane, 2
+2024-04-24 05:52:58,963 - user_management - INFO - User added: John, 1
+2024-04-24 05:52:58,963 - user_management - INFO - User added: Jane, 2
+2024-04-24 05:52:58,965 - user_management - INFO - User added: John, 1
+2024-04-24 05:52:58,965 - user_management - INFO - User updated: 1
+2024-04-24 05:53:02,733 - user_management - INFO - User added: dqwdwdqd, 21212421421
+2024-04-24 05:53:02,733 - book_management - INFO - Book added: asddas, asddasa, 1234
+2024-04-24 05:53:02,733 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:53:16,684 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:53:22,022 - book_management - INFO - Book added: fwfw, fwwfewf, 123
+2024-04-24 05:53:26,067 - user_management - INFO - User added: weffewfew, 1
+2024-04-24 05:53:39,062 - cli_utils - ERROR - Error getting checkout details: 'UserManager' object has no attribute 'search_users'
+2024-04-24 05:53:39,062 - __main__ - ERROR - Error in main loop: cannot unpack non-iterable NoneType object
+2024-04-24 05:53:49,993 - cli_utils - ERROR - Error getting checkout details: 'UserManager' object has no attribute 'search_users'
+2024-04-24 05:53:49,993 - __main__ - ERROR - Error in main loop: cannot unpack non-iterable NoneType object
+2024-04-24 05:55:35,822 - storage - INFO - Data loaded successfully from library_data.json
+2024-04-24 05:55:40,806 - book_management - INFO - Book added: dsdasds, sadadas, 1
+2024-04-24 05:55:45,963 - user_management - INFO - User added: wfwefewfe, 1
+2024-04-24 05:55:51,143 - checkout_management - INFO - Book checked out: User id: 1, Isbn: 1
+2024-04-24 05:55:55,220 - storage - INFO - Data saved successfully to library_data.json
+2024-04-24 05:55:55,220 - __main__ - INFO - Data saved successfully.
+2024-04-24 05:56:07,928 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:56:07,928 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:56:07,928 - book_management - INFO - Book deleted: ISBN1
+2024-04-24 05:56:07,928 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:56:07,928 - book_management - INFO - Book added: Book2, Author2, ISBN2
+2024-04-24 05:56:07,928 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:56:07,933 - book_management - INFO - Book added: Book2, Author2, ISBN2
+2024-04-24 05:56:07,933 - book_management - INFO - Book added: Book1, Author1, ISBN1
+2024-04-24 05:56:07,933 - book_management - INFO - Book updated: ISBN1
+2024-04-24 05:56:07,933 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:56:07,933 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:56:07,933 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:56:07,933 - checkout_management - INFO - Book returned: User id: 1, Isbn: ISBN1
+2024-04-24 05:56:07,933 - checkout_management - INFO - Book checked out: User id: 1, Isbn: ISBN1
+2024-04-24 05:56:07,933 - user_management - INFO - User added: John, 1
+2024-04-24 05:56:07,933 - user_management - INFO - User added: John, 1
+2024-04-24 05:56:07,933 - user_management - INFO - User deleted: 1
+2024-04-24 05:56:07,933 - user_management - INFO - User added: John, 1
+2024-04-24 05:56:07,933 - user_management - INFO - User added: Jane, 2
+2024-04-24 05:56:07,933 - user_management - INFO - User added: John, 1
+2024-04-24 05:56:07,933 - user_management - INFO - User added: Jane, 2
+2024-04-24 05:56:07,933 - user_management - INFO - User added: John, 1
+2024-04-24 05:56:07,933 - user_management - INFO - User updated: 1
